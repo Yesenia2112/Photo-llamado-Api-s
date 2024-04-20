@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center; 
+    padding: 20px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr )); 
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center; 
+}
+
+.card > img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 5px; 
+}
+
+.card > h3 {
+    color: chocolate;
+    font-size: 1rem;
+    margin-top: 10px; 
+}
